@@ -1,4 +1,4 @@
-# Tutorial Writeup (HW2 Style)
+# Tutorial Writeup
 
 ## Objective
 
@@ -11,6 +11,10 @@ This pack operationalizes a four-skill workflow that separates extraction, mappi
 ## 1) Workflow Overview (what the system does end-to-end)
 
 The system ingests a job description and candidate experience, extracts a role specification, maps evidence to requirements, generates application materials, and performs compliance review before finalizing outputs.
+
+### How execution works
+
+The `.md` files in this pack are formatted instructions and templates, not runnable code. The workflow is executed by prompt-orchestrating the skills in an LLM interface (e.g., Codex CLI). Outputs from each skill (e.g., `role_spec`, `mapping`, `gaps`, `do_not_claim`, drafts, and critiques) are copied/pasted into the next skill as inputs. This creates traceable intermediate artifacts that can be inspected and audited. The explicit handoffs reduce hallucinations by forcing each step to rely on prior evidence. Automation could be added later via a script to wire steps together, but it is not required for this pack.
 
 ## 2) System Components + Orchestration (4 skills, what each does, flow)
 
@@ -55,7 +59,7 @@ Repro Steps (checklist):
 - Deliverables: `role_spec`, `mapping`, `gaps`, `do_not_claim`, `resume_bullets`, `cover_letter`, `keyword_report`, critique outputs.
 - Constraints: no fabricated tools/credentials/metrics; label assumptions; outputs must be paste-ready for downstream steps.
 
-## Grading Rubric
+## Quality Checklist
 
 | Criterion | Points | Description |
 | --- | --- | --- |
@@ -66,9 +70,9 @@ Repro Steps (checklist):
 | Efficiency |  | _Reasonable performance and resource use._ |
 | Total |  |  |
 
-## Submission
+## Included Artifacts
 
-Submit the following artifacts:
+Included artifacts:
 
 - `packs/job-application-agent/examples/run1_output.md`
 - `packs/job-application-agent/examples/run2_output.md`
