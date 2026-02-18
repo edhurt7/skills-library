@@ -16,4 +16,4 @@ Use the template at `templates/pack-template/` as the starting point for new pac
 
 | Pack | Description | Version | Maintainer |
 | --- | --- | --- | --- |
-| _(add new pack)_ |  |  |  |
+| Job Application Agent | Structured workflow for JD parsing, experience mapping, writing, and compliance review. | v0.1 |  |
