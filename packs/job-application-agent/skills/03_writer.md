@@ -42,6 +42,9 @@ Generate application materials aligned to the role spec and evidence map while a
 - Never fabricate tools, credentials, metrics, or employers.
 - When info is missing, label assumptions.
 - Outputs must be structured and easy to paste into the next step.
+- Transferable TPM Framing: every resume bullet must map to at least one of these TPM mechanics: governance, dependency management, milestone execution, risk management, stakeholder alignment, reporting cadence, action tracking.
+- Gap-bridging paragraph required in the cover letter: explicitly acknowledge 2–3 key gaps and provide a concrete approach (partner with SMEs, structured learning plan, ask clarifying questions, document decisions, create dashboards).
+- Keyword rule: include at least 8 role keywords that are supportable by experience (e.g., governance, dependencies, milestones, KPIs/dashboards only if framed as reporting, risk management, operational readiness, cross-team execution). Do not include domain keywords like routing/subnetting/IPv6 unless explicitly labeled as a learning area.
 
 ## Failure Modes
 
