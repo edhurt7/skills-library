@@ -20,8 +20,15 @@ A structured, multi-step workflow that converts a job description and candidate 
 
 ## Examples
 
-Run two examples and save results under `packs/job-application-agent/examples/` as:
-- `example1_output.json`
-- `example2_output.json`
+Use the example files under `packs/job-application-agent/examples/`:
+- `examples/run1_input.md`
+- `examples/run1_output.md`
+- `examples/run2_input.md`
+- `examples/run2_output.md`
 
 Each example should include inputs and all intermediate outputs for reproducibility.
+
+## Evidence
+
+- `benchmark/benchmark_table.md`
+- `tutorial/tutorial_writeup.md`
